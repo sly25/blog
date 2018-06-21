@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  height : 100%;
+}
+html,#app,.main{
+  height: 100%;
+}
+.homebackground {
+  background-image: url('https://i.loli.net/2018/03/20/5ab061d30404e.jpeg');
+  width:100%;
+  height: 100%;
+}
+.mobilecoverbody {
+  width:100%;
+  height:100%;
+  position:absolute;
+  left: 0;
+  top: 0;
+  background:-webkit-linear-gradient(left,rgb(139,131,134),rgba(235,235,235,0.6));
+  background:-o-linear-gradient(left,rgb(139,131,134),rgba(235,235,235,0.6));
+  background:-moz-linear-gradient(left,rgb(139,131,134),rgba(235,235,235,0.6));
+  background:linear-gradient(left,rgb(139,131,134),rgba(235,235,235,0.6));
+  display:flex;
+  display: -webkit-flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top:30%;
+  font-family: "Sans-serif";
+  h1 {
+    color: #fff;
+    font-size: 60px;
+  }
+  p {
+    text-align: center;
+    color: #fff;
+  }
+}
+.mobileheadimage {
+  width:80px;
+  height:80px;
+  border-radius: 50px;
+  overflow: hidden;
+  img {
+    width:80px;
+    height:80px;
+  }
+}
+.mobilefooter {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:70px;
+  ul {
+    list-style: none;
+    width:100%;
+    height:80%;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+  }
+  li {
+    float: left;
+    width: 33.3%;
+    height:100%;
+    border-right:1px solid rgba(255,255,255,0.5);
+    text-align: center;
+    font-size:25px;
+    color:#ffffff;
+    font-weight: lighter;
+    padding-top: 10px;
+    a {
+      color:#ffffff;
+    }
+  }
+  .lastli {
+    border-right: none;
+  }
+}
